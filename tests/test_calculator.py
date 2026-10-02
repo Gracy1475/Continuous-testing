@@ -67,3 +67,6 @@ def test_divide(first, second, expected):
 def test_divide_by_zero_raises(dividend):
     with pytest.raises(ZeroDivisionError):
         divide(dividend, 0)
+        
+def test_add_large_numbers():
+    assert add(1000,2000)==3000
