@@ -23,3 +23,6 @@ def divide(first, second):
         ZeroDivisionError: If the divisor is zero.
     """
     return first / second
+
+def test_add_large_numbers():
+    assert add(1000,2000)==3000
